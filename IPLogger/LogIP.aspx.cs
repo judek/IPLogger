@@ -25,7 +25,10 @@ namespace IPLogger
                  return;
 
 
-            System.IO.File.WriteAllText(sName + ".txt", IpAdress);
+
+
+
+            System.IO.File.WriteAllText(Server.MapPath(sName + ".txt"), IpAdress);
 
 
             

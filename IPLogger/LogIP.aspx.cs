@@ -28,7 +28,7 @@ namespace IPLogger
 
 
 
-            System.IO.File.WriteAllText(Server.MapPath(@"logs/" + sName + ".txt"), IpAdress);
+            System.IO.File.WriteAllText(Server.MapPath(@"logs/" + sName + ".txt"), IpAdress + " " + DateTime.Now);
 
 
             
